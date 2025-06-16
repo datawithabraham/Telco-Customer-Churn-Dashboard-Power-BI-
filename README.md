@@ -57,7 +57,7 @@ To explore customer behavior and uncover churn trends using interactive Power BI
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard Screenshot](Vtx_screenshots/dashboard.png)
+![Dashboard Screenshot](Vtx_screenshots/Dashboard.png)
 
 This image gives a visual overview of churn rates and customer segments across various dimensions.
 
