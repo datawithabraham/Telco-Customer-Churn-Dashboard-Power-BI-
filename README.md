@@ -8,6 +8,7 @@ This project simulates churn analysis for a fictional telecom company called Ver
 This project presents a detailed **Customer Churn Analysis Dashboard** built in **Power BI** for a fictional telecom company, **Vertex Mobile**. It provides visual insights into the key factors contributing to customer churn, helping stakeholders identify high-risk segments and formulate data-driven retention strategies.
 
 ---
+![Image](https://github.com/user-attachments/assets/6d302eda-1e3d-4489-abd3-be1a6cca513e)
 
 ## 🎯 Objective
 
