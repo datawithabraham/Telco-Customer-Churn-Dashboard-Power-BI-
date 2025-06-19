@@ -2,17 +2,18 @@
 This project simulates churn analysis for a fictional telecom company called Vertex Mobile using Power BI.
 
 
-
-# 📊 Vertex Mobile – Customer Churn Analysis Dashboard (Power BI)
-
-This project presents a detailed **Customer Churn Analysis Dashboard** built in **Power BI** for a fictional telecom company, **Vertex Mobile**. It provides visual insights into the key factors contributing to customer churn, helping stakeholders identify high-risk segments and formulate data-driven retention strategies.
-
 ---
 ![Image](https://github.com/user-attachments/assets/6d302eda-1e3d-4489-abd3-be1a6cca513e)
 
-## 🎯 Objective
+## Problem Statement
 
-To explore customer behavior and uncover churn trends using interactive Power BI visuals. The dashboard answers questions such as:
+This project aimed to discover the rate at which customers of a Telcom company (Vertex Mobile) 
+were switching to other networks and offers, and or abandoning the use of the Telcom services 
+completely.
+Since it is difficult and expensive to acquire a new customer, especially in the Telecommunications 
+space, it is necessary to dive deep into available data and observe patterns of customer exits. 
+This can help in several ways to help the company develop and implement strategies capable of 
+maintaining existing customers.The dashboard answers questions such as:
 
 - Which customer segments are churning the most?
 - How does churn vary by contract type, payment method, or age group?
@@ -28,10 +29,31 @@ To explore customer behavior and uncover churn trends using interactive Power BI
 - GitHub for project version control and sharing
 
 ---
+## Data Preparation
+The dataset was acquired from Only Quality Data for educational purposes only.
+Reliability checks were made to ensure if dataset available can be able to answer the business question.
+The data was cleaned in Power Bi to standardize the data and also eliminate duplicates. 
+The Keep duplicates function was used on the primary key; the custumer_Id column. There were no duplicates found.
+The phone_number column appeared to contain duplicates. 
+The keep rows > keep duplicates function was used to filter duplicated phone numbers after which 
+remove rows > remove duplicates function was used to clear the duplicated phone numbers
+The cleaned dataset was renamed **Vertex_Cleaned** 
+## Analytics
+Measures were created in Power Bi to calculate sums and averages
+           
+           Total no of Customers = Total Customers = CALCULATE(COUNTROWS(Vertex_Cleaned))
 
-## 📈 Key Dashboard Features
+           
+           Churned_Customers = 
+CALCULATE(
+    COUNTROWS(Vertex_Cleaned),
+    FILTER(Vertex_Cleaned, Vertex_Cleaned[churn_label] = "yes")
+)
+
+## Key Dashboard Features
 
 - **KPI Card**: Displays total number of customers (6.68K)
+- **KPI Card**: Displays the total number of churned customers
 - **Churn Analysis by**:
   - Contract type (Month-to-Month, One Year, Two Year)
   - Age group, Gender, and Unlimited Plan
