@@ -45,11 +45,11 @@ Measures were created in Power Bi to calculate sums and averages
 
 ![Image](https://github.com/user-attachments/assets/f8fa1b43-501c-469e-a4c4-6797d7cfcc09)
 
-           Churned_Customers = 
-CALCULATE(
-    COUNTROWS(Vertex_Cleaned),
-    FILTER(Vertex_Cleaned, Vertex_Cleaned[churn_label] = "yes")
-)
+           Churned_Customers = CALCULATE(COUNTROWS(Vertex_Cleaned),
+           FILTER(Vertex_Cleaned, Vertex_Cleaned[churn_label] = "yes"))
+
+![Image](https://github.com/user-attachments/assets/f8fa1b43-501c-469e-a4c4-6797d7cfcc09)
+
 
 ## Key Dashboard Features
 
