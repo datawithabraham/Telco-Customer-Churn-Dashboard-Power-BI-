@@ -43,7 +43,8 @@ Measures were created in Power Bi to calculate sums and averages
            
            Total no of Customers = Total Customers = CALCULATE(COUNTROWS(Vertex_Cleaned))
 
-           
+![Image](https://github.com/user-attachments/assets/f8fa1b43-501c-469e-a4c4-6797d7cfcc09)
+
            Churned_Customers = 
 CALCULATE(
     COUNTROWS(Vertex_Cleaned),
