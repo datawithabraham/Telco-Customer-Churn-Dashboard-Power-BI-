@@ -95,23 +95,33 @@ up on the company. This is a critical churn accelerator in the analysis.
            
            Month-to-month contract holders churned at 46.7%, One Year at 11.31%, and Two Year contract holders at 2.97%.
   
-- The second highest risk of churn lies within the 65 – 85 age range. This age group churned the most but the highest number of churned customers lie between the 30 - 44 age range. This insight could possibly be the death of such customers due to their age. This represents a variable that may not be able to 
-be controlled for.
+- The second highest risk of churn lies within the 65 – 85 age range. This age group churned the most but the highest
+number of churned customers lie between the 30 - 44 age range. This insight could possibly be the death of such customers due to their age.#
+This represents a variable that may not be able to be controlled for.
            
            Age range 65-85 churned the most at 38.1% but age range 30 - 44
-          has the highest number of customer churns 1762 customers churning in that range.
+          has the highest number of customer churns with 1762 customers churning in that range.
   
-- It also appears that customers who are active internationally churn more. Especially those who are signed on in international offer but are not active internationally (71%) followed by customers who are not on international plan and are internationally active (40%). This is a rather puzzling metric.
+- It also appears that customers who are active internationally churn more. Especially those who are signed on
+  international offer but are not active internationally (71%) followed by customers who are not on international plan and are
+  internationally active (40%). This is a rather puzzling metric.
 
            
             ![image](https://github.com/user-attachments/assets/81b8e5dc-3394-4fe0-935a-e323bd48ce4c)
+  
+- Conversely it appears in the analysis that customers who are signed up on Unlimited plan tends to 
+churn more than customers who are not. This is a disturbing risk segment that needs to be 
+addressed. This is mainly due to Telcom competitor offering a better offer; has the highest count
+of churn reasons from customers.
+           Custumers signed up on Unlimited Offers churned the most at 66.54%.
+
+   - Further more, minor operational aspects like payment methods impacts churn with paper check 
+users being a higher segment of the risk. Paper check is rather frail and prone to a lot of
+disadvantages including delays in mails, usual human forgetfulness to send mail which may result 
+to missed payment deadlines. This could likely churn a customer using a paper check as a 
+payment method.
 
 
-- **Month-to-Month contracts** show the highest churn rate (~40%)
-- Customers with **Unlimited Plan = No** churn significantly more (66.54%)
-- **Senior citizens (65+)** churn at higher rates than younger groups
-- Customers using **Paper Check** are more likely to churn compared to those using Direct Debit or Credit Card
-- Customers **with international plans** also exhibit higher churn
 
 ---
 
