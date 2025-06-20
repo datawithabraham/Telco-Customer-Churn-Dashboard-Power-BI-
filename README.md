@@ -114,9 +114,9 @@ This represents a variable that may not be able to be controlled for.
 - Conversely it appears in the analysis that customers who are signed up on Unlimited plan tends to 
 churn more than customers who are not. This is a disturbing risk segment that needs to be 
 addressed. This is mainly due to Telcom competitor offering a better offer; has the highest count
-of churn reasons from customers.
+of churn reasons from customers.          
+           
            Custumers signed up on Unlimited Offers churned the most at 66.54%.
-
    - Further more, minor operational aspects like payment methods impacts churn with paper check 
 users being a higher segment of the risk. Paper check is rather frail and prone to a lot of
 disadvantages including delays in mails, usual human forgetfulness to send mail which may result 
