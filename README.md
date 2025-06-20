@@ -2,8 +2,6 @@
 This project simulates churn analysis for a fictional telecom company called Vertex Mobile using Power BI.
 
 
----
-![Image](https://github.com/user-attachments/assets/6d302eda-1e3d-4489-abd3-be1a6cca513e)
 
 ## Problem Statement
 
@@ -55,6 +53,11 @@ Measures were created in Power Bi to calculate sums and averages
 
 ![Image](https://github.com/user-attachments/assets/f8fa1b43-501c-469e-a4c4-6797d7cfcc09)
 
+Further measures were created to arrive at visualizations that answer the business question.
+
+## Snapshot of Dashboard
+
+![Image](https://github.com/user-attachments/assets/6d302eda-1e3d-4489-abd3-be1a6cca513e)
 
 ## Key Dashboard Features
 
@@ -82,17 +85,24 @@ Measures were created in Power Bi to calculate sums and averages
 | `README.md` | Documentation for the project |
 | `insights.md` | Summary of findings and actionable recommendations (optional) |
 
----
-
-## 🖼️ Dashboard Preview
-
-![Dashboard Screenshot](Vtx_screenshots/Dashboard.png)
-
-This image gives a visual overview of churn rates and customer segments across various dimensions.
 
 ---
 
-## 🔍 Sample Insights
+## Insights
+- Our analysis reveals that month- month contract holders represents the most significant churn 
+risk. This asserts that new customers are more susceptible to leaving within initial months of sign 
+up on the company. This is a critical churn accelerator in the analysis.
+           
+           Month-to-month contract holders churned at 46.7%, One Year at 11.31%, and Two Year contract holders at 2.97%.
+  
+- The second highest risk of churn lies within the 65 – 85 age range. This age group churned the most but the highest number of churned customers lie between the 30 - 44 age range. This insight could possibly be the death of such customers due to their age. This represents a variable that may not be able to 
+be controlled for.
+           
+           Age range 65-85 churned the most at 38.1% but age range 30 - 44 has the highest number of customer churns 1762 customers churning in that range.
+  
+- It also appears that customers who are active internationally churn more. Especially those who are signed on in international offer but are not active internationally (71%) followed by customers who are not on international plan and are internationally active (40%). This is a rather puzzling metric.
+  ![image](https://github.com/user-attachments/assets/81b8e5dc-3394-4fe0-935a-e323bd48ce4c)
+
 
 - **Month-to-Month contracts** show the highest churn rate (~40%)
 - Customers with **Unlimited Plan = No** churn significantly more (66.54%)
