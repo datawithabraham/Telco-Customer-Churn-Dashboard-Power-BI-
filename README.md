@@ -31,16 +31,18 @@ maintaining existing customers.The dashboard answers questions such as:
 ---
 ## Data Preparation
 The dataset was acquired from Only Quality Data for educational purposes only.
+The data contains 30 columns and 1687 rows.
 Reliability checks were made to ensure if dataset available can be able to answer the business question.
 The data was cleaned in Power Bi to standardize the data and also eliminate duplicates. 
-The Keep duplicates function was used on the primary key; the custumer_Id column. There were no duplicates found.
-The phone_number column appeared to contain duplicates. 
-The keep rows > keep duplicates function was used to filter duplicated phone numbers after which 
-remove rows > remove duplicates function was used to clear the duplicated phone numbers
+The 'Keep duplicates' function was used on the primary key; the custumer_Id column to determine if there were any duplicates. There were no duplicates found.
+Duplicates were found in the phone_number column. Since a customer is supposed to acquire a single phone number, the duplicates were removed in order not to skew the distribution. 
+The 'keep rows' > 'keep duplicates' function was used to filter duplicated phone numbers after which 
+'remove rows' > 'remove duplicates' function was used to clear the duplicated phone numbers
 The cleaned dataset was renamed **Vertex_Cleaned** 
 
 ### Snapshot of Table
 ![Image](https://github.com/user-attachments/assets/0ea27658-3ffd-4773-af13-23086fc3a4f3)
+
 ## Analytics
 Measures were created in Power Bi to calculate sums and averages
            
