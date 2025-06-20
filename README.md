@@ -38,6 +38,8 @@ The phone_number column appeared to contain duplicates.
 The keep rows > keep duplicates function was used to filter duplicated phone numbers after which 
 remove rows > remove duplicates function was used to clear the duplicated phone numbers
 The cleaned dataset was renamed **Vertex_Cleaned** 
+**Snapshot of Table**
+![Image](https://github.com/user-attachments/assets/0ea27658-3ffd-4773-af13-23086fc3a4f3)
 ## Analytics
 Measures were created in Power Bi to calculate sums and averages
            
