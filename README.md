@@ -107,7 +107,9 @@ This represents a variable that may not be able to be controlled for.
   internationally active (40%). This is a rather puzzling metric.
 
            
-            ![image](https://github.com/user-attachments/assets/81b8e5dc-3394-4fe0-935a-e323bd48ce4c)
+            
+           ![Image](https://github.com/user-attachments/assets/3d73b159-9e35-4c58-a2a0-5af2a13068f9)
+
   
 - Conversely it appears in the analysis that customers who are signed up on Unlimited plan tends to 
 churn more than customers who are not. This is a disturbing risk segment that needs to be 
@@ -122,7 +124,7 @@ to missed payment deadlines. This could likely churn a customer using a paper ch
 payment method.
 
 
-
+![Image](https://github.com/user-attachments/assets/a2430c63-3d1a-4485-a037-053d8dfad49c)
 ---
 
 
