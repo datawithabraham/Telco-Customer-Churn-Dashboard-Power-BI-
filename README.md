@@ -98,10 +98,13 @@ up on the company. This is a critical churn accelerator in the analysis.
 - The second highest risk of churn lies within the 65 – 85 age range. This age group churned the most but the highest number of churned customers lie between the 30 - 44 age range. This insight could possibly be the death of such customers due to their age. This represents a variable that may not be able to 
 be controlled for.
            
-           Age range 65-85 churned the most at 38.1% but age range 30 - 44 has the highest number of customer churns 1762 customers churning in that range.
+           Age range 65-85 churned the most at 38.1% but age range 30 - 44
+          has the highest number of customer churns 1762 customers churning in that range.
   
 - It also appears that customers who are active internationally churn more. Especially those who are signed on in international offer but are not active internationally (71%) followed by customers who are not on international plan and are internationally active (40%). This is a rather puzzling metric.
-  ![image](https://github.com/user-attachments/assets/81b8e5dc-3394-4fe0-935a-e323bd48ce4c)
+
+           
+            ![image](https://github.com/user-attachments/assets/81b8e5dc-3394-4fe0-935a-e323bd48ce4c)
 
 
 - **Month-to-Month contracts** show the highest churn rate (~40%)
