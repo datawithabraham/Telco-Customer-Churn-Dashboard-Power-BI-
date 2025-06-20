@@ -108,7 +108,7 @@ This represents a variable that may not be able to be controlled for.
 
            
             
-           ![Image](https://github.com/user-attachments/assets/3d73b159-9e35-4c58-a2a0-5af2a13068f9)
+           ![Image](https://github.com/user-attachments/assets/638a1027-4cdb-466b-a520-5313383f5bf7)
 
   
 - Conversely it appears in the analysis that customers who are signed up on Unlimited plan tends to 
